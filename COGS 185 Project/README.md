@@ -4,14 +4,14 @@ This project investigates the performance characteristics and trade-offs of thre
 
 ## Project Overview
 
-In this study, we compare the performance of three different generative modeling approaches using a systematic experimental framework. We evaluate how different architectural choices and hyperparameter settings affect metrics such as:
+This study compares the performance of three different generative modeling approaches using a systematic experimental framework. The evaluation examines how different architectural choices and hyperparameter settings affect metrics such as:
 - Sample quality (Inception Score)
 - Distribution similarity (Fréchet Inception Distance)
 - Sample diversity and mode coverage
 - Training stability and convergence
 - Computational efficiency
 
-Our implementation addresses the challenges of fair comparison between fundamentally different generative paradigms through consistent architectural design and comprehensive evaluation methodology.
+The implementation addresses the challenges of fair comparison between fundamentally different generative paradigms through consistent architectural design and comprehensive evaluation methodology.
 
 ## Repository Structure
 
@@ -120,7 +120,7 @@ Options:
 
 ## Key Findings
 
-The detailed results of our experiments can be found in the `project_results/` directory after running the provided scripts. Some key aspects we evaluate:
+The detailed results of the experiments can be found in the `project_results/` directory after running the provided scripts. Key aspects evaluated include:
 
 - How different loss functions affect training stability
 - Impact of latent space dimensionality on sample quality
@@ -161,8 +161,5 @@ This project was developed as the final project for COGS 185 - Deep Learning, im
 - **Professional Documentation**: Research-quality implementation and reporting
 
 ## Acknowledgements
-
-This project was developed as part of the COGS 185 course at UC San Diego by:
-- Adrian Zhu Chou
 
 The implementation builds upon foundational work in generative modeling, particularly the original papers by Goodfellow et al. (GANs), Kingma & Welling (VAEs), and Gulrajani et al. (WGAN-GP).
