@@ -17,7 +17,7 @@ The implementation addresses the challenges of fair comparison between fundament
 
 - `generative_models.py` - Core implementations of all three generative models
 - `evaluation_tools.py` - Evaluation metrics, visualization tools, and hyperparameter analysis
-- `project_runner.py` - Main execution pipeline with configuration management
+- `run_project.py` - Main execution pipeline with configuration management
 - `README.md` - Project documentation and usage guide
 
 ## Requirements
